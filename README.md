@@ -34,15 +34,15 @@ Then a consumer application (based off of kafka-python) subscribes to the "route
 The transformed data is then to be sent to ElasticSearch so that Kibana can built reports over it. For this purpose, I used KSQL to create an ElasticSearch sink.
 Following is a diagramatic representation of the above:
 
-!(kafka_demo.png)
+![architecture](kafka_demo.png)
 
 ## Kibana Visualisation and Report
 
-!(Kibana_Dashboard_SS.png)
+![dashboard](Kibana_Dashboard_SS.png)
 
 On the right corner of the panel, click on the 3-dot icon => inspect, you should see a Download CSV option for the visualised data:
 
-!(Report_SS.png)
+![report](Report_SS.png)
 
 ## Usage Notes
 
